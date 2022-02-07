@@ -1,2 +1,0 @@
-# react-kindle
-React Kindle

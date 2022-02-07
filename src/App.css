@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+  height: 100vh;
+  overflow: auto
+}
+
+.Cardtable {
+  height: 80vh;
+  justify-content: center;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card {
+  margin-left: 2.5vw;
+  width: 25vw;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(121, 112, 255);
+  padding: 1rem;
+}
+
+.visual {
+  height: 100px;
+  width: 100%;
+  background: wheat;
+  margin: 0.5rem 0;
+}
+
