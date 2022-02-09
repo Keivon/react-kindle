@@ -1,0 +1,27 @@
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+ 
+    'menu  main main main '
+    'menu  main main main ';
+  grid-gap: 10px;
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+ 
+}
+
+.Readbutton {
+  text-align: center;
+  top:2vh;
+  right: 3vw;
+}
